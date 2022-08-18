@@ -197,8 +197,7 @@ a:hover {
   }
   
   .redes-containers {
-    background-color: #324856;
-    height: 50%;
+    height: 30%;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -210,14 +209,14 @@ a:hover {
   
     margin: 5px 10px;
     width: 50px;          /* ancho */
-    height: 50px;         /* altura */
+    height: 30px;         /* altura */
     text-align: center;       /* imagem centrada en el box*/
     padding: 5px;
   }
   
   .redes-containers ul li a {
     display: block;
-    padding: 0 5px;
+    padding: 1 3px;
     background: #353535;
     color: beige;
     line-height: 30px;
@@ -266,7 +265,7 @@ a:hover {
 
 
 footer {
-  background: #324856;
+
   width: 100%;
   overflow: auto;
  border-top: 1px solid #aadcd2;  
@@ -285,7 +284,41 @@ footer h3 {
   font-size: 120%;
   line-height: 100%;
 }
+/*  teste ---*/
+.footers {
+  background: #324856;
+  width: 100%;
+  overflow: auto;
+ border-top: 1px solid #aadcd2;  
+ opacity: .95;
+  margin: 0;
 
+}
+.flecha {
+  background: rgb(110, 110, 167);
+  border-radius: 90%;
+  float: right;
+  margin: 0 auto;
+  width: 20px;
+  height: auto;
+  border-radius: 25%;
+  padding: 1%;
+}
+
+.boton{
+  font-style: 1.25cm;
+  font-weight: bols;
+  padding: 8px 10px;
+  border-radius: 10px;
+  border: 1px solid rgba(0,0,0,0.5);
+  box-shadow: 2px 2px 10px rgba(0,0,0,0.5);
+  color: white;
+  background-color: blueviolet;
+  float: right;
+}
+.boton:hover{
+  background-color: rgba(101,33,145);
+}
 
 /*   Display para Movil  --------------------------*/
 @media screen and (max-width: 768px) {
@@ -324,9 +357,9 @@ footer h3 {
     display: none;
     z-index: 1000;
     position: absolute;
-    padding: 20px;
+    padding: 30px;
     background: #f5f5f5;
-    border: 1px solid #a5bdcd;
+    border: 2px solid #a5bdcd;
     right: 10px;
     width: 30%;
     opacity: .95;
