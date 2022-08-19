@@ -294,16 +294,7 @@ footer h3 {
   margin: 0;
 
 }
-.flecha {
-  background: rgb(110, 110, 167);
-  border-radius: 90%;
-  float: right;
-  margin: 0 auto;
-  width: 20px;
-  height: auto;
-  border-radius: 25%;
-  padding: 1%;
-}
+
 
 .boton{
   font-style: 1.25cm;
@@ -313,11 +304,11 @@ footer h3 {
   border: 1px solid rgba(0,0,0,0.5);
   box-shadow: 2px 2px 10px rgba(0,0,0,0.5);
   color: white;
-  background-color: blueviolet;
+  background-color: rgba(214, 182, 244, 0.946);
   float: right;
 }
 .boton:hover{
-  background-color: rgba(101,33,145);
+  background-color:  #324856;
 }
 
 /*   Display para Movil  --------------------------*/
